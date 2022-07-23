@@ -1,34 +1,23 @@
 <template>
   <div id="description">
-    <h3>{{ sub }}</h3>
-    <h4>{{ msg }}</h4>
+    <h3>{{ msg }}</h3>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Desciption',
+  name: "Desciption",
   props: {
-    sub: String,
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <style>
 #description {
-  font-family: 'Helvetica';
-  color: #FFFFA2;
-  padding-top: 30px;
-  padding: 100px;
-}
-
-h3 {
+  font-family: "Helvetica";
   font-size: 40px;
-}
-
-h4 {
-  font-size: 25px;
-  color: #F2CB61;
+  color: #ffffa2;
+  padding-left: 100px;
 }
 </style>
