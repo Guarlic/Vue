@@ -1,6 +1,6 @@
 <template>
   <div id="HelloWorld">
-    <img src="../../../Desktop/소작로고.png" height="600"/>
+    <img src="../../../Desktop/소작로고.png" height="150"/>
     <h1>{{ msg }}</h1>
   </div>
 </template>
@@ -16,7 +16,10 @@ export default {
 
 <style>
 #HelloWorld {
+  font-family: 'Helvetica';
   text-align: center;
-  font-size: 100px;
+  font-size: 40px;
+  color: #F6DB90;
+  padding: 60px;
 }
 </style>
