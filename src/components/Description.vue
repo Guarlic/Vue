@@ -18,6 +18,5 @@ export default {
   font-family: "Helvetica";
   font-size: 40px;
   color: #ffffa2;
-  padding-left: 100px;
 }
 </style>

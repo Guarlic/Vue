@@ -1,6 +1,6 @@
 <template>
   <div id="HelloWorld">
-    <img src="../../../Desktop/소작로고.png" height="150"/>
+    <img src="https://cdn.discordapp.com/attachments/983372807666815066/1000661122887716954/3eba5b78c78eebf5.png" height="150"/>
     <h1>{{ msg }}</h1>
   </div>
 </template>
