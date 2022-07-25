@@ -1,8 +1,12 @@
 <template>
+  <a
+    href='https://discord.com/api/oauth2/authorize?client_id=976394837790167070&permissions=8&scope=applications.commands%20bot'
+    target='_blank'
+  >
   <img
-    src="https://cdn.discordapp.com/attachments/973479654251978772/1000714949833793576/fecd30afb2851d40.jpeg"
-    height="200"
-  />
+    src='https://cdn.discordapp.com/attachments/973479654251978772/1000714949833793576/fecd30afb2851d40.jpeg'
+    height='200'
+  /></a>
   <h4>뉴꺠미</h4>
   <h5>
     뉴꺠미는 과거에 재미로 개발되던 '꺠미' 의 후속작입니다.<br />
@@ -15,19 +19,19 @@
 
 <script>
 export default {
-  name: "NewKami",
+  name: 'NewKami',
 };
 </script>
 
 <style>
 h4 {
-  font-family: "Helvetica";
+  font-family: 'Helvetica';
   font-size: 30px;
   color: #f3ca5a;
 }
 
 h5 {
-  font-family: "Helvetica";
+  font-family: 'Helvetica';
   font-size: 20px;
   color: #f4ca5a;
 }

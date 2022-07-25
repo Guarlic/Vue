@@ -1,8 +1,12 @@
 <template>
+  <a
+    href='https://discord.com/api/oauth2/authorize?client_id=964153010735435796&permissions=283467869254&scope=bot%20applications.commands'
+    target='_blank'
+  >
   <img
-    src="https://cdn.discordapp.com/attachments/973479654251978772/1000715022021955634/fc34b79cb458581c.jpeg"
-    height="200"
-  />
+    src='https://cdn.discordapp.com/attachments/973479654251978772/1000715022021955634/fc34b79cb458581c.jpeg'
+    height='200'
+  /></a>
   <h4>시덱이</h4>
   <h5>
     시덱이는 본래 검열봇으로 제작될 예정이었으나,<br />
@@ -17,19 +21,19 @@
 
 <script>
 export default {
-  name: "Cdec",
+  name: 'Cdec',
 };
 </script>
 
 <style>
 h4 {
-  font-family: "Helvetica";
+  font-family: 'Helvetica';
   font-size: 30px;
   color: #f3ca5a;
 }
 
 h5 {
-  font-family: "Helvetica";
+  font-family: 'Helvetica';
   font-size: 20px;
   color: #f4ca5a;
 }

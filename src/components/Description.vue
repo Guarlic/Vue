@@ -1,12 +1,12 @@
 <template>
-  <div id="description">
+  <div id='description'>
     <h3>{{ msg }}</h3>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Desciption",
+  name: 'Desciption',
   props: {
     msg: String,
   },
@@ -15,7 +15,7 @@ export default {
 
 <style>
 #description {
-  font-family: "Helvetica";
+  font-family: 'Helvetica';
   font-size: 40px;
   color: #ffffa2;
 }
